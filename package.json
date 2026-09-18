@@ -1,0 +1,34 @@
+{
+  "name": "routerjev",
+  "version": "0.1.0",
+  "description": "Intelligent model router for OpenCode Go using TypeSafe Jev",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SalvaIvars/routerjev.git"
+  },
+  "bin": {
+    "jev-opencode": "bin/jev-opencode.mjs",
+    "jev-status": "bin/jev-status.mjs"
+  },
+  "scripts": {
+    "test": "node --test \"test/**/*.test.mjs\"",
+    "start": "node bin/jev-opencode.mjs"
+  },
+  "keywords": [
+    "opencode",
+    "go",
+    "model-routing",
+    "jev",
+    "typesafe",
+    "ai-gateway",
+    "llm-proxy"
+  ],
+  "engines": {
+    "node": ">=20.12"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0"
+  }
+}

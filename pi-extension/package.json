@@ -1,0 +1,19 @@
+{
+  "name": "pi-routerjev-extension",
+  "version": "0.1.0",
+  "description": "Pi extension for RouterJev - intelligent model routing for OpenCode Go",
+  "type": "module",
+  "main": "index.ts",
+  "keywords": [
+    "pi",
+    "extension",
+    "routerjev",
+    "opencode-go",
+    "model-routing"
+  ],
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": ">=0.1.0"
+  }
+}
